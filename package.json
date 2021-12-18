@@ -61,11 +61,6 @@
     "typescript": "^4.5.4",
     "validate-commit-msg": "^2.14.0"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "changelog": {
     "language": "zh"
   },
