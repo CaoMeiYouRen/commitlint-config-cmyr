@@ -4,7 +4,7 @@
     <img alt="Version" src="https://img.shields.io/npm/v/commitlint-config-cmyr.svg">
   </a>
   <a href="https://github.com/CaoMeiYouRen/commitlint-config-cmyr/actions?query=workflow%3ARelease" target="_blank">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/CaoMeiYouRen/commitlint-config-cmyr/Release">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/CaoMeiYouRen/commitlint-config-cmyr/release.yml?branch=master">
   </a>
   <img src="https://img.shields.io/badge/node-%3E%3D12-blue.svg" />
   <a href="https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme" target="_blank">
