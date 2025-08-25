@@ -18,23 +18,19 @@
   </a>
 </p>
 
-
 > 草梅友仁自定义的 commitlint 配置
 
 ### 🏠 [主页](https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme)
 
 [https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme](https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme)
 
-
 ### ✨ [Demo](https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme)
 
 [https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme](https://github.com/CaoMeiYouRen/commitlint-config-cmyr#readme)
 
-
 ## 依赖要求
 
-
-- node >=12
+-   node >=18
 
 ## 安装
 
@@ -72,28 +68,26 @@ npm run lint
 npm run commit
 ```
 
-
 ## 作者
-
 
 👤 **CaoMeiYouRen**
 
-* Website: [https://blog.cmyr.ltd/](https://blog.cmyr.ltd/)
-* GitHub: [@CaoMeiYouRen](https://github.com/CaoMeiYouRen)
+-   Website: [https://blog.cmyr.ltd/](https://blog.cmyr.ltd/)
+-   GitHub: [@CaoMeiYouRen](https://github.com/CaoMeiYouRen)
 
-
-## 🤝贡献
+## 🤝 贡献
 
 欢迎 贡献、提问或提出新功能！<br />如有问题请查看 [issues page](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/issues). <br/>贡献或提出新功能可以查看[contributing guide](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/blob/master/CONTRIBUTING.md).
 
-## 💰支持
+## 💰 支持
 
-如果觉得这个项目有用的话请给一颗⭐️，非常感谢
+如果觉得这个项目有用的话请给一颗 ⭐️，非常感谢
 
 ## 📝 License
 
 Copyright © 2021 [CaoMeiYouRen](https://github.com/CaoMeiYouRen).<br />
 This project is [MIT](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [cmyr-template-cli](https://github.com/CaoMeiYouRen/cmyr-template-cli)_
