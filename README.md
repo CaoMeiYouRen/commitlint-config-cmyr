@@ -85,7 +85,7 @@ npm install --save-dev @commitlint/cli
 ```javascript
 // commitlint.config.js
 export default {
-    extends: ["commitlint-config-cmyr"],
+    extends: ["cmyr"],
 };
 ```
 
@@ -93,10 +93,8 @@ export default {
 
 ```typescript
 // commitlint.config.ts
-import type { UserConfig } from "@commitlint/types";
-
 const Configuration: UserConfig = {
-    extends: ["commitlint-config-cmyr"],
+    extends: ["cmyr"],
 };
 
 export default Configuration;
