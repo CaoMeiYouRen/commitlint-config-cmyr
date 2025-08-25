@@ -46,8 +46,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(@types/node@17.0.45)(typescript@4.9.5)
       cz-conventional-changelog-cmyr:
-        specifier: ^1.1.1
-        version: 1.1.1(@types/node@17.0.45)(typescript@4.9.5)
+        specifier: 2.0.0-beta.1
+        version: 2.0.0-beta.1(@types/node@17.0.45)(commitizen@4.3.1(@types/node@17.0.45)(typescript@4.9.5))(typescript@4.9.5)
       debug:
         specifier: ^4.3.3
         version: 4.4.1
@@ -1000,9 +1000,11 @@ packages:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
 
-  cz-conventional-changelog-cmyr@1.1.1:
-    resolution: {integrity: sha512-P4AKDlnpXYQC747QHjpRF4dQ7D8+XQrJ3Jd3uaR2bIt9N54Oje8DGpbdM3aEO6I4x+nwY4eIQmTIWuyArPIeuA==}
-    engines: {node: '>=12'}
+  cz-conventional-changelog-cmyr@2.0.0-beta.1:
+    resolution: {integrity: sha512-9nvo0I7x/3M+jnT7XU50mAFQnA7Pcs95YtY6KSRnIzbqn7Fc7UckBKnfR6LpOWxFU6cSrIdKxtx2uD9VBULQ8A==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      commitizen: '>=4.0.0'
 
   cz-conventional-changelog@3.3.0:
     resolution: {integrity: sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==}
@@ -4447,17 +4449,15 @@ snapshots:
 
   crypto-random-string@2.0.0: {}
 
-  cz-conventional-changelog-cmyr@1.1.1(@types/node@17.0.45)(typescript@4.9.5):
+  cz-conventional-changelog-cmyr@2.0.0-beta.1(@types/node@17.0.45)(commitizen@4.3.1(@types/node@17.0.45)(typescript@4.9.5))(typescript@4.9.5):
     dependencies:
+      '@commitlint/load': 19.8.1(@types/node@17.0.45)(typescript@4.9.5)
       '@lint-md/core': 2.0.0
       chalk: 4.1.2
       commitizen: 4.3.1(@types/node@17.0.45)(typescript@4.9.5)
       conventional-commit-types: 3.0.0
-      lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
-    optionalDependencies:
-      '@commitlint/load': 19.8.1(@types/node@17.0.45)(typescript@4.9.5)
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
