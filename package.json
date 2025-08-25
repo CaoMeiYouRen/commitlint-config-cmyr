@@ -47,8 +47,8 @@
     "debug": "^4.3.3",
     "eslint": "^9.34.0",
     "eslint-config-cmyr": "2.0.0-beta.15",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
     "lodash": "^4.17.21",
     "rimraf": "^3.0.2",
     "semantic-release": "^18.0.1",
@@ -73,7 +73,7 @@
     "url": "https://github.com/CaoMeiYouRen/commitlint-config-cmyr/issues"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^15.0.0"
+    "@commitlint/config-conventional": "^19.8.1"
   },
   "config": {
     "commitizen": {
