@@ -53,32 +53,32 @@ export default {
                     perf: {
                         description: '提高性能的代码更改',
                         title: 'Performance Improvements',
-                        emoji: '🚀',
+                        emoji: '⚡',
                     },
                     test: {
                         description: '添加缺失的测试或纠正现有的测试',
                         title: 'Tests',
-                        emoji: '🚨',
+                        emoji: '✅',
                     },
                     build: {
                         description: '影响构建系统或外部依赖项的更改 (示例范围: gulp, broccoli, npm)',
                         title: 'Builds',
-                        emoji: '🛠',
+                        emoji: '👷',
                     },
                     ci: {
                         description: '对我们的 CI 配置文件和脚本的更改 (示例范围: Travis, Circle, BrowserStack, SauceLabs)',
                         title: 'Continuous Integrations',
-                        emoji: '⚙️',
+                        emoji: '🔧',
                     },
                     chore: {
                         description: '不修改 src 或测试文件的其他更改',
                         title: 'Chores',
-                        emoji: '♻️',
+                        emoji: '🎫',
                     },
                     revert: {
                         description: '回退之前的提交',
                         title: 'Reverts',
-                        emoji: '🗑',
+                        emoji: '⏪',
                     },
                 },
             },
