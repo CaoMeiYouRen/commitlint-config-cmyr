@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-cmyr",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "草梅友仁自定义的 commitlint 配置",
   "author": "CaoMeiYouRen",
   "private": false,
