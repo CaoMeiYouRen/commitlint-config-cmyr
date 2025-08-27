@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-cmyr",
-  "version": "0.1.0",
+  "version": "1.0.0-beta.4",
   "description": "草梅友仁自定义的 commitlint 配置",
   "author": "CaoMeiYouRen",
   "private": false,
@@ -33,17 +33,12 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
     "@types/debug": "^4.1.7",
     "@types/lodash": "^4.14.178",
     "@types/node": "^17.0.0",
     "commitizen": "^4.2.3",
-    "conventional-changelog-cli": "^2.1.1",
-    "conventional-changelog-cmyr-config": "^2.1.2",
     "cross-env": "^7.0.3",
-    "cz-conventional-changelog": "^3.3.0",
-    "cz-conventional-changelog-cmyr": "^1.1.1",
+    "cz-conventional-changelog-cmyr": "2.0.0",
     "debug": "^4.3.3",
     "eslint": "^9.34.0",
     "eslint-config-cmyr": "2.0.0-beta.15",
@@ -51,7 +46,8 @@
     "lint-staged": "^16.1.5",
     "lodash": "^4.17.21",
     "rimraf": "^3.0.2",
-    "semantic-release": "^18.0.1",
+    "semantic-release": "^24.2.7",
+    "semantic-release-cmyr-config": "1.0.0-beta.2",
     "tsdown": "^0.14.1",
     "typescript": "^4.5.4"
   },
@@ -77,7 +73,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog-cmyr"
+      "path": "./node_modules/cz-conventional-changelog-cmyr"
     }
   }
 }
