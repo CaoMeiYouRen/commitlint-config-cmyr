@@ -38,7 +38,7 @@ export default {
                     docs: {
                         description: '仅文档更改',
                         title: 'Documentation',
-                        emoji: '📚',
+                        emoji: '📝',
                     },
                     style: {
                         description: '不影响代码含义的代码样式更改(空格、格式、缺少分号等)',
