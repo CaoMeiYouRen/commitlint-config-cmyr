@@ -1,5 +1,12 @@
 # commitlint-config-cmyr
 
+# [1.0.0-beta.4](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2025-08-27)
+
+
+### 🐛 Bug 修复
+
+* 更新文档更改和其他类型的 emoji 表情以增强可读性 ([b0b8404](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/commit/b0b8404))
+
 # [1.0.0-beta.3](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2025-08-26)
 
 
