@@ -47,7 +47,7 @@
     "lodash": "^4.17.21",
     "rimraf": "^6.0.1",
     "semantic-release": "^25.0.2",
-    "semantic-release-cmyr-config": "1.0.0",
+    "semantic-release-cmyr-config": "1.0.1",
     "tsdown": "^0.15.6",
     "typescript": "^5.9.2"
   },
