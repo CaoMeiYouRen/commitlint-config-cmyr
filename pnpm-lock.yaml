@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@commitlint/config-conventional':
         specifier: ^20.0.0
-        version: 20.4.0
+        version: 20.4.2
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.1.0
@@ -119,8 +119,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@20.4.0':
-    resolution: {integrity: sha512-nolhFe2YKIix0D4+tPXAWnnIc9WB5fOCgmm4h2EcRyEShC64oH/DpM9n++85NRdItvIhKb+Szsaeuug7KcEeIA==}
+  '@commitlint/config-conventional@20.4.2':
+    resolution: {integrity: sha512-rwkTF55q7Q+6dpSKUmJoScV0f3EpDlWKw2UPzklkLS4o5krMN1tPWAVOgHRtyUTMneIapLeQwaCjn44Td6OzBQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.8.1':
@@ -3419,7 +3419,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@20.4.0':
+  '@commitlint/config-conventional@20.4.2':
     dependencies:
       '@commitlint/types': 20.4.0
       conventional-changelog-conventionalcommits: 9.1.0
