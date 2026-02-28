@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@commitlint/config-conventional':
         specifier: ^20.0.0
-        version: 20.4.0
+        version: 20.4.2
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.1.0
@@ -119,8 +119,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@20.4.0':
-    resolution: {integrity: sha512-nolhFe2YKIix0D4+tPXAWnnIc9WB5fOCgmm4h2EcRyEShC64oH/DpM9n++85NRdItvIhKb+Szsaeuug7KcEeIA==}
+  '@commitlint/config-conventional@20.4.2':
+    resolution: {integrity: sha512-rwkTF55q7Q+6dpSKUmJoScV0f3EpDlWKw2UPzklkLS4o5krMN1tPWAVOgHRtyUTMneIapLeQwaCjn44Td6OzBQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.8.1':
@@ -197,10 +197,6 @@ packages:
 
   '@commitlint/types@19.8.1':
     resolution: {integrity: sha512-/yCrWGCoA1SVKOks25EGadP9Pnj0oAIHGpl2wH2M2Y46dPM2ueb8wyCVOD7O3WCTkaJ0IkKvzhl1JY7+uCT2Dw==}
-    engines: {node: '>=v18'}
-
-  '@commitlint/types@20.2.0':
-    resolution: {integrity: sha512-KTy0OqRDLR5y/zZMnizyx09z/rPlPC/zKhYgH8o/q6PuAjoQAKlRfY4zzv0M64yybQ//6//4H1n14pxaLZfUnA==}
     engines: {node: '>=v18'}
 
   '@commitlint/types@20.4.0':
@@ -1466,7 +1462,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -3330,7 +3326,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@20.4.0':
+  '@commitlint/config-conventional@20.4.2':
     dependencies:
       '@commitlint/types': 20.4.0
       conventional-changelog-conventionalcommits: 9.1.0
@@ -3450,11 +3446,6 @@ snapshots:
       escalade: 3.2.0
 
   '@commitlint/types@19.8.1':
-    dependencies:
-      '@types/conventional-commits-parser': 5.0.1
-      chalk: 5.6.2
-
-  '@commitlint/types@20.2.0':
     dependencies:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.6.2
