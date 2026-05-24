@@ -1,5 +1,13 @@
 # commitlint-config-cmyr
 
+## [1.0.1](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/compare/v1.0.0...v1.0.1) (2026-05-24)
+
+
+### 🐛 Bug 修复
+
+* **deps-dev:** 更新 commitizen 和 lodash 版本 ([dee6a25](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/commit/dee6a25))
+* **deps-dev:** 更新依赖项版本 ([d9d8ffe](https://github.com/CaoMeiYouRen/commitlint-config-cmyr/commit/d9d8ffe))
+
 # 1.0.0 (2025-08-27)
 
 
