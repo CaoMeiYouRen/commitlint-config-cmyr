@@ -7,6 +7,12 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
+permissions:
+  id-token: write # Required for OIDC
+  packages: write
+  contents: write
+  issues: write
+  pull-requests: write
 jobs:
   release:
     name: Release
@@ -31,6 +37,5 @@ jobs:
       - run: pnpm run lint
       - run: pnpm run build
       - env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm run release
