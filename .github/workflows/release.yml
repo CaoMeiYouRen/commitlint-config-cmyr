@@ -7,19 +7,18 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
-permissions:
-  id-token: write # Required for OIDC
-  packages: write
-  contents: write
-  issues: write
-  pull-requests: write
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
+      id-token: write # Required for OIDC
+      packages: write
       contents: write
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v6
         with:
